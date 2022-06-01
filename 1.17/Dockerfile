@@ -1,4 +1,4 @@
-FROM golang:1.17.9-alpine3.15
+FROM golang:1.17.10-alpine3.15
 
 ARG CREATED
 ARG REVISION
