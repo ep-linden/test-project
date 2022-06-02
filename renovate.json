@@ -3,6 +3,9 @@
     "config:base"
   ],
   "docker": {
-    "separateMinorPatch": true
+    "separateMinorPatch": true,
+    "minor": {
+      "enabled": false
+    }
   }
 }
