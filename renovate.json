@@ -3,6 +3,6 @@
     "config:base"
   ],
   "docker": {
-    "bumpVersion": "patch"
+    "separateMinorPatch": true
   }
 }
