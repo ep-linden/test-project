@@ -2,10 +2,5 @@
   "extends": [
     "config:base"
   ],
-  "docker": {
-    "separateMinorPatch": true,
-    "minor": {
-      "enabled": false
-    }
-  }
+  "bumpVersion": "patch"
 }
