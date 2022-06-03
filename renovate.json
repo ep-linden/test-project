@@ -2,7 +2,12 @@
   "extends": [
     "config:base"
   ],
-  "docker": {
-    "bumpVersion": "patch"
-  }
+  "separateMinorPatch": true,
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchUpdateTypes": ["minor"],
+      "dependencyDashboardApproval": true
+    }
+  ]
 }
