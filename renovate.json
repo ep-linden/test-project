@@ -2,10 +2,12 @@
   "extends": [
     "config:base"
   ],
-  "docker": {
-    "separateMinorPatch": true,
-    "minor": {
+  "separateMinorPatch": true,
+  "packageRules": [
+    {
+      "matchDatasources": ["docker"],
+      "matchUpdateTypes": ["minor"],
       "dependencyDashboardApproval": true
     }
-  }
+  ]
 }
