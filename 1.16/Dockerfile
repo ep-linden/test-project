@@ -1,3 +1,3 @@
-FROM golang:1.16.15-alpine3.15
+FROM golang:1.19.3-alpine3.15
 
 RUN apk -U upgrade
